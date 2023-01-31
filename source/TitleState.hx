@@ -74,10 +74,11 @@ class TitleState extends MusicBeatState
 	var easterEggKeys:Array<String> = [
 		'SHADOW', 'RIVER', 'SHUBS', 'BBPANZU'
 	];
-	*/
+	
 	var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	var easterEggKeysBuffer:String = '';
 	#end
+	*/
 
 	var mustUpdate:Bool = false;
 
