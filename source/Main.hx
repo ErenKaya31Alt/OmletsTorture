@@ -145,7 +145,7 @@ class Main extends Sprite
 			}
 		}
 
-		errMsg += "\nUncaught Error: " + e.error + "\Skill issue \nCrash handler written by: sqirra-rng";
+		errMsg += "\nUncaught Error: " + e.error + "\nSkill issue \nCrash handler written by: sqirra-rng";
 
 		if (!FileSystem.exists("./crash/"))
 			FileSystem.createDirectory("./crash/");
