@@ -54,7 +54,6 @@ class MainMenuState extends MusicBeatState
 	#end
 
 	var magenta:FlxSprite;
-	private var char1:Character = null
 	var camFollow:FlxObject;
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
@@ -168,12 +167,6 @@ class MainMenuState extends MusicBeatState
 		}
 
 		FlxG.camera.follow(camFollowPos, null, 1);
-		
-		char1 = new Character(650, 130, 'KdjG', true);
-		char1.setGraphicSize(Std.int(char1.width * 0.8));
-		add(char1);
-		char1.visible = true;
-		char1.flipX = true;
 
 		var versionShit:FlxText = new FlxText(FlxG.width * 0.7, FlxG.height - 64, 0, "Psych Engine v" + psychEngineVersion, 12);
 		versionShit.scrollFactor.set();
@@ -257,19 +250,6 @@ class MainMenuState extends MusicBeatState
 		var lerpVal:Float = CoolUtil.boundTo(elapsed * 7.5, 0, 1);
 		camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
 		
-		if (optionShit[curSelected] == 'options')
-		{
-		    changeItem(-1);
-		    changeItem(1);
-			
-		    char1.dance();
-		    char1.updateHitbox();
-		    char1.visible = false;
-		}
-		else
-		{
-		    char1.visible = true;
-		}
 
 		if (!selectedSomethin)
 		{
@@ -294,8 +274,8 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				if (optionShit[curSelected] == 'donate') {
-					CoolUtil.browserLoad('https://ninja-muffin24.itch.io/funkin');
+				if (optionShit[curSelected] == 'youtube') {
+					CoolUtil.browserLoad('https://www.youtube.com/@kdjtherealguy');
 				} else if (optionShit[curSelected] == customOption) {
 					CoolUtil.browserLoad(customOptionLink);
 				}
