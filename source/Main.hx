@@ -36,7 +36,7 @@ class Main extends Sprite
 		initialState: TitleState, // initial game state
 		zoom: -1.0, // game state bounds
 		framerate: 60, // default framerate
-		skipSplash: true, // if the default flixel splash screen should be skipped
+		skipSplash: false, // if the default flixel splash screen should be skipped
 		startFullscreen: false // if the game should start at fullscreen mode
 	};
 
@@ -145,7 +145,7 @@ class Main extends Sprite
 			}
 		}
 
-		errMsg += "\nUncaught Error: " + e.error + "\nPlease report this error to the GitHub page: https://github.com/ShadowMario/FNF-PsychEngine\n\n> Crash Handler written by: sqirra-rng";
+		errMsg += "\nUncaught Error: " + e.error + "\Skill issue \nCrash handler written by: sqirra-rng";
 
 		if (!FileSystem.exists("./crash/"))
 			FileSystem.createDirectory("./crash/");
