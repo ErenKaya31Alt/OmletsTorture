@@ -1,0 +1,3 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="Bobbby_Dialogue.png"><SubTexture name="BOBBBY0000" x="0" y="0" width="264" height="663" frameX="-18" frameY="0" frameWidth="325" frameHeight="663" />
+</TextureAtlas>

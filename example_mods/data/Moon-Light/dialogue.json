@@ -1,0 +1,76 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Dang i'm tired..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "i think i should go to sleep..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Wait! There is Another One!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "are you serious right now"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "alex",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Hey! I wanna rap battle too!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Ugh.. fine.\r\n"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Just this one alright?"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "alex",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Yeah yeah don't worry!\r\n"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Okay then.\r\n"
+		}
+	]
+}

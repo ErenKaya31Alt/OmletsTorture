@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="kdjsheet.png">
+	<!-- Created with Adobe Animate version 20.5.0.29329 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="down0000" x="0" y="0" width="379" height="445" frameX="0" frameY="0" frameWidth="393" frameHeight="446"/>
+	<SubTexture name="down0001" x="0" y="0" width="379" height="445" frameX="0" frameY="0" frameWidth="393" frameHeight="446"/>
+	<SubTexture name="down0002" x="379" y="0" width="386" height="441" frameX="-7" frameY="-5" frameWidth="393" frameHeight="446"/>
+	<SubTexture name="idle0000" x="765" y="0" width="363" height="490" frameX="0" frameY="0" frameWidth="403" frameHeight="490"/>
+	<SubTexture name="idle0001" x="1128" y="0" width="371" height="489" frameX="-11" frameY="-1" frameWidth="403" frameHeight="490"/>
+	<SubTexture name="idle0002" x="1128" y="0" width="371" height="489" frameX="-11" frameY="-1" frameWidth="403" frameHeight="490"/>
+	<SubTexture name="idle0003" x="1499" y="0" width="379" height="478" frameX="-24" frameY="-11" frameWidth="403" frameHeight="490"/>
+	<SubTexture name="idle0004" x="1128" y="0" width="371" height="489" frameX="-11" frameY="-1" frameWidth="403" frameHeight="490"/>
+	<SubTexture name="idle0005" x="1128" y="0" width="371" height="489" frameX="-11" frameY="-1" frameWidth="403" frameHeight="490"/>
+	<SubTexture name="left0000" x="0" y="490" width="363" height="493" frameX="-12" frameY="0" frameWidth="375" frameHeight="493"/>
+	<SubTexture name="left0001" x="363" y="490" width="368" height="492" frameX="0" frameY="-1" frameWidth="375" frameHeight="493"/>
+	<SubTexture name="left0002" x="363" y="490" width="368" height="492" frameX="0" frameY="-1" frameWidth="375" frameHeight="493"/>
+	<SubTexture name="right0000" x="731" y="490" width="363" height="490" frameX="0" frameY="0" frameWidth="407" frameHeight="490"/>
+	<SubTexture name="right0001" x="1094" y="490" width="363" height="489" frameX="-23" frameY="-1" frameWidth="407" frameHeight="490"/>
+	<SubTexture name="right0002" x="1457" y="490" width="362" height="487" frameX="-45" frameY="-3" frameWidth="407" frameHeight="490"/>
+	<SubTexture name="up0000" x="0" y="983" width="363" height="516" frameX="-3" frameY="-11" frameWidth="366" frameHeight="527"/>
+	<SubTexture name="up0001" x="363" y="983" width="355" height="527" frameX="0" frameY="0" frameWidth="366" frameHeight="527"/>
+	<SubTexture name="up0002" x="363" y="983" width="355" height="527" frameX="0" frameY="0" frameWidth="366" frameHeight="527"/>
+</TextureAtlas>

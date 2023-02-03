@@ -1,0 +1,59 @@
+{
+	"songs": [
+		[
+			"Coolness",
+			"Kdj",
+			[
+				255,
+				35,
+				55
+			]
+		],
+		[
+			"Freaky",
+			"Bobbby",
+			[
+				255,
+				255,
+				255
+			]
+		],
+		[
+			"Moon-light",
+			"Alex",
+			[
+				0,
+				33,
+				255
+			]
+		],
+		[
+			"Peace",
+			"Mati",
+			[
+				46,
+				153,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "DEMO1",
+	"difficulties": "hard",
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"storyName": "",
+	"weekName": "DEMOWEEK1",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

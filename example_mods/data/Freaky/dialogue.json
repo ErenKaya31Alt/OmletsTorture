@@ -1,0 +1,100 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "beep boop skibidi dop-"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "ok this is getting fucking annoying my voice hurts"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "anyways"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "since when does bob grow up"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bobbby",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bruh i ain't bob"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "cap"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bobbby",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bro what"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bobbby",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "i said i ain't bob"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "didn't ask + ratio + ur bob"
+		},
+		{
+			"sound": "",
+			"speed": 0.03,
+			"portrait": "bobbby",
+			"boxState": "angry",
+			"expression": "talk",
+			"text": "Imma diss you now!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "ok do it"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bobbby",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ok here we go"
+		}
+	]
+}

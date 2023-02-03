@@ -1,0 +1,10 @@
+{	
+	"titlex":-10,
+	"titley":-130,
+	"startx":100,
+	"starty":600,
+	"gfx":99999999999999999,
+	"gfy":99999999999999999,
+	"backgroundSprite":"mountains",
+	"bpm":176
+}

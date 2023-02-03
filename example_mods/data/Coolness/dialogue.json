@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "nothing",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Beep!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "kdj",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Huh, who are you"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bep bop dap skepib dab bop"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "kdj",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Oh, a rap battle?"
+		},
+		{
+			"sound": "",
+			"speed": 0.02,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "excited",
+			"text": "YEAH!!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "kdj",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Well..."
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "kdj",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Lets go then"
+		}
+	]
+}
