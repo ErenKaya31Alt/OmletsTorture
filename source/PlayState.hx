@@ -83,16 +83,16 @@ class PlayState extends MusicBeatState
 	public static var STRUM_X_MIDDLESCROLL = -278;
 
 	public static var ratingStuff:Array<Dynamic> = [
-		['You Suck!', 0.2], //From 0% to 19%
+		['Skill issue i see', 0.2], //From 0% to 19%
 		['Shit', 0.4], //From 20% to 39%
 		['Bad', 0.5], //From 40% to 49%
-		['Bruh', 0.6], //From 50% to 59%
+		['Bruh Moment', 0.6], //From 50% to 59%
 		['Meh', 0.69], //From 60% to 68%
-		['Nice', 0.7], //69%
-		['Good', 0.8], //From 70% to 79%
-		['Great', 0.9], //From 80% to 89%
-		['Sick!', 1], //From 90% to 99%
-		['Perfect!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
+		['69 FUNNY', 0.7], //69%
+		['Wow', 0.8], //From 70% to 79%
+		['Nice', 0.9], //From 80% to 89%
+		['Coolio!', 1], //From 90% to 99%
+		['MANIA!!', 1] //The value on this one isn't used actually, since Perfect is always "1"
 	];
 
 	//event variables
@@ -988,6 +988,11 @@ class PlayState extends MusicBeatState
 			case 'schoolEvil':
 				var evilTrail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069); //nice
 				addBehindDad(evilTrail);
+				
+			case 'demolition':
+				var evilTrail = new FlxTrail(dad, null, 4, 24, 0.3, 0.069); //nice
+				addBehindDad(evilTrail);
+				//trace('WHOA IS THAT A THORNS REFERENCE??????????????')
 		}
 
 		var file:String = Paths.json(songName + '/dialogue'); //Checks for json/Psych Engine dialogue
@@ -1149,9 +1154,9 @@ class PlayState extends MusicBeatState
 			botplayTxt.y = timeBarBG.y - 78;
 		}
 
-		strumLineNotes.cameras = [camHUD];
-		grpNoteSplashes.cameras = [camHUD];
-		notes.cameras = [camHUD];
+		strumLineNotes.cameras = [camOther];
+		grpNoteSplashes.cameras = [camOther];
+		notes.cameras = [camOther];
 		healthBar.cameras = [camHUD];
 		healthBarBG.cameras = [camHUD];
 		iconP1.cameras = [camHUD];

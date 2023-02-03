@@ -70,13 +70,15 @@ class TitleState extends MusicBeatState
 
 	var wackyImage:FlxSprite;
 
-	#if TITLE_SCREEN_EASTER_EGG
+	/* #if TITLE_SCREEN_EASTER_EGG
 	var easterEggKeys:Array<String> = [
 		'SHADOW', 'RIVER', 'SHUBS', 'BBPANZU'
 	];
+	
 	var allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	var easterEggKeysBuffer:String = '';
 	#end
+	*/
 
 	var mustUpdate:Bool = false;
 
@@ -629,16 +631,16 @@ class TitleState extends MusicBeatState
 					FlxG.sound.music.fadeIn(4, 0, 0.7);
 				case 2:
 					#if PSYCH_WATERMARKS
-					createCoolText(['Psych Engine by'], 15);
+					createCoolText(['Omlets Torture by'], 15);
 					#else
-					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
+					createCoolText(['KdjTheCoolGuy123', 'Eren Kaya', 'BobbbyOfficial', 'AlexDima']);
 					#end
 				// credTextShit.visible = true;
 				case 4:
 					#if PSYCH_WATERMARKS
-					addMoreText('Shadow Mario', 15);
-					addMoreText('RiverOaken', 15);
-					addMoreText('shubs', 15);
+					addMoreText('KdjTheCoolGuy123', 15);
+					addMoreText('Eren Kaya', 15);
+					addMoreText('BobbbyOfficial', 15);
 					#else
 					addMoreText('present');
 					#end
@@ -678,13 +680,13 @@ class TitleState extends MusicBeatState
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
 				case 14:
-					addMoreText('Friday');
+					addMoreText('Vs');
 				// credTextShit.visible = true;
 				case 15:
-					addMoreText('Night');
+					addMoreText('Omlets');
 				// credTextShit.text += '\nNight';
 				case 16:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('Torture'); // credTextShit.text += '\nFunkin';
 
 				case 17:
 					skipIntro();
