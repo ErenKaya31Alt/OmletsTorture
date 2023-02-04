@@ -122,7 +122,7 @@ class FreeplayState extends MusicBeatState
 					addWeek(['Ligma'], 2, ['Crazy-Guy']);
 					addWeek(['Toilet'], 2, ['Samux']);
 				case 'extra':
-					addWeek(['Grinder'], 2, ['VulpixG'])
+					addWeek(['Grinder'], 2, ['VulpixG']);
 				#if demolitionFound
 				case 'youre fucked':
 					addWeek(['Demolition'], 2, ['BobbbyMad']);
