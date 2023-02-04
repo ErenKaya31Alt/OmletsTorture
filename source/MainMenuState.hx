@@ -48,6 +48,17 @@ class MainMenuState extends MusicBeatState
 	var camFollowPos:FlxObject;
 	var debugKeys:Array<FlxKey>;
 
+	public static var bgPaths:Array<String> = 
+	[
+		'backgrounds/SUSSUS AMOGUS',
+		'backgrounds/SwagnotrllyTheMod',
+		'backgrounds/Olyantwo',
+		'backgrounds/morie',
+		'backgrounds/mantis',
+		'backgrounds/mamakotomi',
+		'backgrounds/T5mpler'
+	];
+
 	override function create()
 	{
 		#if MODS_ALLOWED
@@ -75,7 +86,7 @@ class MainMenuState extends MusicBeatState
 		persistentUpdate = persistentDraw = true;
 
 		var yScroll:Float = Math.max(0.25 - (0.05 * (optionShit.length - 4)), 0.1);
-		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBG'));
+		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(randomizeBG());
 		bg.scrollFactor.set(0, yScroll);
 		bg.setGraphicSize(Std.int(bg.width * 1.175));
 		bg.updateHitbox();
@@ -304,4 +315,10 @@ class MainMenuState extends MusicBeatState
 			}
 		});
 	}
+
+	public static function randomizeBG():flixel.system.FlxAssets.FlxGraphicAsset
+		{
+			var chance:Int = FlxG.random.int(0, bgPaths.length - 1);
+			return Paths.image(bgPaths[chance]);
+		}
 }
